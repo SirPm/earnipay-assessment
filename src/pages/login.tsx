@@ -41,7 +41,7 @@ export const Login = () => {
 
   const handleSubmit = (evt: React.FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
-    navigate("/dashboard");
+    navigate(PAGE_ROUTES.DASHBOARD);
   };
 
   return (

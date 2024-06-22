@@ -56,7 +56,7 @@ export const Button = styled.button`
   color: ${(props) => (props.disabled ? "#64748B" : "#FFFFFF")};
   font-size: 15px;
   font-weight: 500;
-  padding: 18px 32px;
+  padding: 16px 32px;
   outline: none;
   border: none;
   cursor: ${(props) => (props.disabled ? "not-allowed" : "pointer")};

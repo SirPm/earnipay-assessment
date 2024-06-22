@@ -51,7 +51,7 @@ export const Signup = () => {
 
   const handleSubmit = (evt: React.FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
-    navigate("/dashboard");
+    navigate(PAGE_ROUTES.VERIFY_EMAIL);
   };
 
   const stepsMap: Record<string, React.ReactNode> = {
