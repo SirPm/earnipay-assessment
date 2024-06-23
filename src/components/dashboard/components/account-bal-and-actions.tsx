@@ -130,4 +130,6 @@ const TransferButton = styled(FundButton)`
   color: #00535c;
 `;
 
-const ButtonText = styled.span``;
+const ButtonText = styled.span`
+  margin-left: 5px;
+`;

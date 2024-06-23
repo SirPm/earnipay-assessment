@@ -4,6 +4,7 @@ import { DashboardHeader } from "./components/dashboard-header";
 import { DashboardAccountBalanceSummary } from "./components/dashboard-acct-bal-summary";
 import { AdvertBanner } from "./components/advert-banner";
 import { AccountAnalytics } from "./components/account-analytics";
+import { RecentTransactions } from "./components/recent-transactions";
 
 export const DashboardContainer = () => {
   return (
@@ -12,6 +13,7 @@ export const DashboardContainer = () => {
       <DashboardAccountBalanceSummary />
       <AdvertBanner />
       <AccountAnalytics />
+      <RecentTransactions />
     </Wrapper>
   );
 };
