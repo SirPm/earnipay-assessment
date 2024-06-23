@@ -10,7 +10,7 @@ import { RESPONSIVE_SIZE } from "../../utils/constants";
 
 export const MainHeader = () => {
   const location = useLocation();
-  React.useEffect(() => console.log(location, "location"), [location]);
+
   return (
     <Wrapper>
       <Title>

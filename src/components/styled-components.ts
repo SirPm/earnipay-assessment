@@ -8,6 +8,18 @@ export const AuthCard = styled.div`
   padding: 30px;
 `;
 
+export const DashboardCard = styled.div`
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 16px 20px;
+`;
+
+export const DashboardWrapper = styled.div`
+  width: 100%;
+  margin-top: 1.5rem;
+`;
+
 export const Label = styled.label`
   color: #121619;
   font-size: 15px;

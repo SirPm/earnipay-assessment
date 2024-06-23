@@ -78,6 +78,78 @@ export const SIDEBAR_FOOTER_LINKS: SidebarLink[] = [
 
 export enum RESPONSIVE_SIZE {
   XSM = "570px",
+  LSM = "700px",
   SM = "768px",
+  MD = "900px",
   LG = "1100px",
+  XLG = "1400px",
 }
+
+interface TotalAmountChartData {
+  monthShort: string;
+  monthLong: string;
+  amount: number;
+}
+
+export const TOTAL_AMOUNT_CHART_DATA: TotalAmountChartData[] = [
+  {
+    monthShort: "Jun",
+    monthLong: "June",
+    amount: 206200,
+  },
+  {
+    monthShort: "Jul",
+    monthLong: "July",
+    amount: 205200,
+  },
+  {
+    monthShort: "Aug",
+    monthLong: "August",
+    amount: 204200,
+  },
+  {
+    monthShort: "Sep",
+    monthLong: "September",
+    amount: 206200,
+  },
+  {
+    monthShort: "Oct",
+    monthLong: "October",
+    amount: 206200,
+  },
+  {
+    monthShort: "Nov",
+    monthLong: "November",
+    amount: 200000,
+  },
+  {
+    monthShort: "Dec",
+    monthLong: "December",
+    amount: 106200,
+  },
+  {
+    monthShort: "Jan",
+    monthLong: "January",
+    amount: 210200,
+  },
+  {
+    monthShort: "Feb",
+    monthLong: "February",
+    amount: 206200,
+  },
+  {
+    monthShort: "Mar",
+    monthLong: "March",
+    amount: 203200,
+  },
+  {
+    monthShort: "Apr",
+    monthLong: "April",
+    amount: 206200,
+  },
+  {
+    monthShort: "May",
+    monthLong: "May",
+    amount: 205200,
+  },
+];
