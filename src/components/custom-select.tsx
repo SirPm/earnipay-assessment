@@ -91,6 +91,12 @@ const SelectButtonText = styled.span`
   font-weight: 500;
   font-size: 14px;
   color: #344054;
+  width: 100px;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
 `;
 
 const SelectIconWrapper = styled.div`
