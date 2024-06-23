@@ -104,4 +104,9 @@ const Status = styled.p<{ $status: TransactionStatus }>`
   padding: 2px 8px;
   margin-top: 5px;
   text-align: center;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 `;
